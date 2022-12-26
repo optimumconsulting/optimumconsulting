@@ -1,0 +1,30 @@
+:root {
+    --optimum-gray: #272727;
+}
+
+@font-face {
+    font-family: "Helvetica Light";
+    src: url(fonts/helvetica-light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "TTRoundsNeue";
+    src: url(fonts/TTRoundsNeue-CondLight.ttf) format("truetype");
+}
+
+body {
+    font-family: "Helvetica Light";
+}
+
+nav, h1, h2, h3, h4, h5, h6 {
+    font-family: "TTRoundsNeue";
+}
+
+.navbar-dark {
+    background-color: var(--optimum-gray);
+}
+
+#logo-optimum {
+    width: 200px;
+    height: auto;
+}
