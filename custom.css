@@ -1,5 +1,6 @@
 :root {
     --optimum-gray: #272727;
+    --light-gray: #eeeaea;
 }
 
 @font-face {
@@ -14,11 +15,28 @@
 
 body {
     font-family: "Helvetica Light";
-    height: 2000px;
 }
 
 h1 {
     font-size: calc(2rem + 3.25vw);
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.gray-bg {
+    background-color: var(--light-gray);
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.titulo-secao {
+    color: #9d9d9d;
 }
 
 #optimum-navbar {
@@ -26,11 +44,11 @@ h1 {
 }
 
 #optimum-logo {
-    width: 150px;
+    width: 20vh;
     height: auto;
 }
 
-#apresentacao {
+#home {
     background-image: url(images/gray-geo-bg-v2-darker.jpg);
     background-position: center;
     background-size: cover;
