@@ -14,17 +14,25 @@
 
 body {
     font-family: "Helvetica Light";
+    height: 2000px;
 }
 
-nav, h1, h2, h3, h4, h5, h6 {
-    font-family: "TTRoundsNeue";
+h1 {
+    font-size: 70px;
+    font-weight: 500;
 }
 
-.navbar-dark {
+#optimum-navbar {
     background-color: var(--optimum-gray);
 }
 
-#logo-optimum {
-    width: 200px;
+#optimum-logo {
+    width: 150px;
     height: auto;
+}
+
+#apresentacao {
+    background-image: url(images/gray-geo-bg-v2-darker.jpg);
+    background-position: center;
+    background-size: cover;
 }
