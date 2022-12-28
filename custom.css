@@ -1,6 +1,7 @@
 :root {
     --optimum-gray: #272727;
     --light-gray: #eeeaea;
+    --darker-gray: #585555;
 }
 
 @font-face {
@@ -32,7 +33,13 @@ h1 {
 .gray-bg {
     background-color: var(--light-gray);
     padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
+}
+
+.white-bg {
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .titulo-secao {
