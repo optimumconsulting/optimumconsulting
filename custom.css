@@ -50,22 +50,31 @@ a {
 }
 
 .social-link {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #666;
-    border-radius: 50%;
+    border-radius: 100%;
     transition: all 0.3s;
     font-size: 0.9rem;
+    text-decoration: none;
 }
 
 .social-link:hover, .social-link:focus {
     background: #ddd;
+    color: var(--optimum-gray);
     text-decoration: none;
-    color: #555;
+}
+
+.rounded-circle {
+    background-color: #ccc8c1;
+}
+
+.fa {
+    text-decoration: none;
+    font-size: 30px;
 }
 
 #optimum-navbar {
@@ -81,4 +90,8 @@ a {
     background-image: url(images/fundo-optimum.png);
     background-position: center;
     background-size: cover;
+}
+
+#equipe {
+    padding-bottom: 2rem;
 }
