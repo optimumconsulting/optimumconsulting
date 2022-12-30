@@ -15,6 +15,7 @@
 
 body {
     font-family: "Helvetica Light";
+    background-color: var(--optimum-gray);
 }
 
 h1 {
@@ -74,7 +75,12 @@ a {
 
 .fa {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.col-xl-4 {
+    display: flex;
+    align-self: stretch;
 }
 
 #optimum-navbar {
@@ -94,4 +100,9 @@ a {
 
 #equipe {
     padding-bottom: 2rem;
+}
+
+#contato {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
