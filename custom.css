@@ -51,8 +51,8 @@ a {
 }
 
 .social-link {
-    width: 40px;
-    height: 40px;
+    width: 6.5vh;
+    height: 6.5vh;
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ a {
 
 .fa {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 5vh;
 }
 
 .col-xl-4 {
