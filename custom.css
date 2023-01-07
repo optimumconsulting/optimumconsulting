@@ -83,6 +83,11 @@ a {
     align-self: stretch;
 }
 
+.required:after {
+    content: "*";
+    color: red;
+}
+
 #optimum-navbar {
     background-color: var(--optimum-gray);
 }

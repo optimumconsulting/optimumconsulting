@@ -13,6 +13,38 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 <body>
+    <!-- E-mail modal -->
+    <div class="modal fade" id="email-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <p class="h5 modal-title">Fale conosco</p>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/xrgvgavq" method="post"> 
+                        <div class="mb-3">
+                            <label class="form-label required">Nome</label>
+                            <input type="text" class="form-control" name="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label required">E-mail</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <!-- <div class="mb-3">
+                            <label class="form-label">Assunto</label>
+                            <input type="text" class="form-control">
+                        </div> -->
+                        <div class="mb-3">
+                            <label class="form-label required">Mensagem</label>
+                            <textarea class="form-control" name="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- BARRA DE NAVEGAÇÃO -->
     <nav class="navbar navbar-expand-sm navbar-dark p-2 fixed-top" id="optimum-navbar">
@@ -45,12 +77,9 @@
                     <a class="nav-link" href="#contato">Contato</a>
                 </li>
                 <!-- Botão de fale conosco -->
-                <!-- <li class="nav-item">
-                    <button type="button" class="btn text-light btn-primary" data-bs-toggle="modal" data-bs-target="#emailModal">
-                        <p class="h5">Fale conosco</p>
-                    </button>
-                </li> -->
-                <!-- Fim form -->
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#email-modal">Fale conosco</button>
+                </li>
             </ul>
         </div>
     </nav>
