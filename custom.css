@@ -26,6 +26,10 @@ a {
     outline: none;
 }
 
+textarea {
+    height: 30vh;
+}
+
 .card-img {
     width: 100%;
     height: 100%;
@@ -86,6 +90,10 @@ a {
 .required:after {
     content: "*";
     color: red;
+}
+
+.form-control {
+    border: 1px solid var(--optimum-gray);
 }
 
 #optimum-navbar {
