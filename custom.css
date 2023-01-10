@@ -106,7 +106,7 @@ textarea {
 }
 
 #home {
-    background-image: url(images/fundo-optimum.png);
+    background-image: url(images/fundo-optimum-opaque.png);
     background-position: center;
     background-size: cover;
 }
