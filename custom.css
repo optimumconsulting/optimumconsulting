@@ -8,11 +8,6 @@
     src: url(fonts/helvetica-light.ttf) format("truetype");
 }
 
-@font-face {
-    font-family: "TTRoundsNeue";
-    src: url(fonts/TTRoundsNeue-CondLight.ttf) format("truetype");
-}
-
 body {
     font-family: "Helvetica Light";
     background-color: var(--optimum-gray);
