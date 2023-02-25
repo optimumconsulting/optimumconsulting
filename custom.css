@@ -96,7 +96,7 @@ textarea {
 }
 
 #optimum-logo {
-    width: 20vh;
+    width: 9rem;
     height: auto;
 }
 
@@ -137,4 +137,14 @@ textarea {
 
 #float-btn:hover {
     background-color: #2b723f;
+}
+
+/* Muda o tamanho da fonte de acordo com o tamanho da telas */
+@media screen and (min-width: 600px) {
+    p {
+      font-size: 1.06rem;
+    }
+    .p-1 {
+        font-size: 1.06rem;
+      }
 }
