@@ -72,8 +72,11 @@
                     <!-- Links -->
                     <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
-                <li class="nav-item h5">
-                    <a class="nav-link" href="#servicos">Serviços</a>
+                <li class="nav-item h5 d-none d-md-block">
+                    <a class="nav-link" href="#servicos-pc">Serviços</a>
+                </li>
+                <li class="nav-item h5 d-block d-md-none">
+                    <a class="nav-link" href="#servicos-mobile">Serviços</a>
                 </li>
                 <li class="nav-item h5">
                     <a class="nav-link" href="#equipe">Equipe</a>
@@ -131,8 +134,8 @@
     </div>
     <!-- *FIM DO CONTAINER 2 -->
 
-    <!-- CONTAINER 3 (SERVIÇOS) -->
-    <div class="white-bg" id="servicos">
+    <!-- CONTAINER 3 (SERVIÇOS) PARA PC -->
+    <div class="white-bg d-none d-md-block" id="servicos-pc">
         <div class="container">
             <h2 class="h3 titulo-secao text-center">Serviços</h2>
             <hr>
@@ -184,7 +187,77 @@
             </div>
         </div>
     </div>
-    <!-- *FIM DO CONTAINER 3 -->
+    <!-- *FIM DO CONTAINER 3 PC -->
+
+    <!-- CONTAINER 3 (SERVIÇOS) PARA MOBILE -->
+    <div class="white-bg d-block d-md-none" id="servicos-mobile">
+        <div class="container">
+            <h2 class="h3 titulo-secao text-center">Serviços</h2>
+            <hr>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <!-- Conteúdo do carousel -->
+                  <div class="carousel-item active">
+                    <!-- Otimização -->
+                    <div class="bg-dark rounded p-4 text-light">
+                        <h3>Otimização</h3>
+                        <hr>
+                        <p>Otimização é a busca pela excelência. <br> Na Optimum Consultoria, oferecemos serviços de otimização para ajudar as empresas a alcançarem seus objetivos de negócios. Nossos consultores em otimização utilizam técnicas avançadas de programação matemática e inteligência artificial para encontrar as melhores soluções para problemas de negócios complexos. <br> Nós trabalhamos com cada cliente individualmente para entender suas necessidades únicas e desenvolver soluções personalizadas que atendam aos seus objetivos de negócios.<br> Alguns serviços que desenvolvemos:</p>
+                        <ul>
+                            <li class="p-1">Otimização da produção: ajudamos as empresas a otimizar seus processos de produção, maximizando a eficiência e reduzindo os custos.</li>
+                            <li class="p-1">Roteamento de veículos: ajudamos as empresas a planejar rotas de entrega eficientes, maximizando a utilização de seus recursos e reduzindo o tempo de entrega.</li>
+                        </ul>
+                        <p>Se você está procurando melhorar a eficiência operacional de sua empresa, entre em contato conosco hoje para saber como podemos ajudá-lo.</p>
+                    </div>    
+                  </div>
+                  <div class="carousel-item">
+                    <!-- Data Science -->
+                    <div class="bg-dark rounded p-4 text-light">
+                        <h3>Data Science</h3>
+                        <hr>
+                        <p>Conheça a sua empresa. <br> Oferecemos serviços de data science para ajudar as empresas a tomar decisões informadas. Nossos consultores utilizam técnicas avançadas de análise de dados e modelagem para prever tendências e oportunidades. <br> Serviços inclusos nessa área são:</p>
+                        <ul>
+                            <li class="p-1">Previsão de demanda: ajudamos as empresas a prever a demanda futura para seus produtos ou serviços, permitindo que elas possam se preparar e se adaptar a mudanças no mercado.</li>
+                            <li class="p-1">Simulação: ajudamos as empresas a testar diferentes cenários e identificar as melhores estratégias para alcançar seus objetivos de negócios.</li>
+                            <li class="p-1">Gestão de qualidade: ajudamos as empresas a monitorar e melhorar a qualidade dos seus produtos ou serviços, usando técnicas estatísticas e análise de dados para identificar problemas e implementar soluções.</li>
+                        </ul>
+                        <p>Se você está procurando melhorar a tomada de decisões em sua empresa, entre em contato conosco hoje para saber como podemos ajudá-lo.</p>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <!-- Consultoria Estratégica -->
+                    <div class="bg-dark rounded p-4 text-light">
+                        <h3>Consultoria Estratégica</h3>
+                        <hr>
+                        <p>Planeje seu futuro. <br>Nossos consultores utilizam sua ampla experiência e conhecimento para identificar oportunidades de crescimento e desenvolver planos de ação para alcançar seus objetivos. <br> A consultoria estratégica inclui os seguintes serviços:</p>
+                        <ul>
+                            <li class="p-1">Análise de mercado e identificação de oportunidades de negócios</li>
+                            <li class="p-1">Análise financeira, valuation e planejamento orçamentário</li>
+                            <li class="p-1">Melhoria da eficiência operacional e redução de custos</li>
+                            <li class="p-1">Desenvolvimento de estratégias de crescimento e expansão</li>
+                            <li class="p-1">Identificação e gestão de riscos</li>
+                        </ul>
+                        <p>Se você está procurando aprimorar sua empresa, entre em contato conosco hoje para saber como podemos ajudá-lo a alcançar seus objetivos de negócios.</p>
+                    </div> 
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- *FIM DO CONTAINER 3 MOBILE -->
 
     <!-- CONTAINER 4 (EQUIPE) -->
     <div class="gray-bg" id="equipe">
@@ -295,11 +368,10 @@
     <!-- *FIM DO CONTAINER 5 -->
 
     <!-- JavaScript -->
-        <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <!-- jQuery -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-        <!-- Minhas modificações -->
+    <!-- Minhas modificações em JS -->
     <script src="my-scripts/close-mobile-menu.js"></script>
 </body>
 </html>
